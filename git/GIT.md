@@ -42,3 +42,14 @@ Click Commit changes button.
 1. Click the green Merge pull request button to merge the changes into `main`.
 2. Click Confirm merge.
 4. Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+
+## Branching Strategy 
+
+## GIT via VSCode
+
+## GIT via command line
+1. clone
+2. make changes
+3. git add .
+4. git commit -m "commit msg"
+5. git push
