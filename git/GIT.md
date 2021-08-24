@@ -1,6 +1,10 @@
 # GIT Training
 1. Download GIT for Windows https://git-scm.com/download/win
-2. OR User choice 
+
+### Download and Install WSL (Windows Subsystem for Linux)
+1. https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders
+2. Click on "Simplified Install" and follow the instructions
+3. Note: Requires you to sign up for the Windows Insider Program
 
 ### Download and Install VSCode for Windows
 1. https://code.visualstudio.com/download
