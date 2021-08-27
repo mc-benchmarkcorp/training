@@ -1,34 +1,10 @@
 # GIT Training
 1. Download GIT for Windows https://git-scm.com/download/win
-
-### Download and Install WSL (Windows Subsystem for Linux)
-1. https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders
-2. Click on "Simplified Install" and follow the instructions
-3. Note: Requires you to sign up for the Windows Insider Program
+2. OR User choice 
 
 ### Download and Install VSCode for Windows
 1. https://code.visualstudio.com/download
 2. Use an IDE of your choice (eclipse atom etc..)
-
-### Configure & Troubleshooting
-1. ssh agent is disabled – enable and start up (on windows 10)
-               https://stackoverflow.com/questions/52113738/starting-ssh-agent-on-windows-10-fails-unable-to-start-ssh-agent-service-erro
- 
-2. recreate ssh key and add to github
-               a. apply new ssh key to github cloud
-                              https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
-               b. test ssh connection from VS Code
-                              https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection
- 
-3. add username and email in VS Code – commandline
-               a. Open Git Bash.
-                              git config user.name "<username>"
-                              git config user.email “<email address>”
-               b. verify configured
-                              git config --get-all user.name
-                              git config --get-all user.email
- 
-4. pull repository from github.
 
 ## To create a new repository
 
@@ -73,4 +49,3 @@ Click Commit changes button.
 3. git add .
 4. git commit -m "commit msg"
 5. git push
-
