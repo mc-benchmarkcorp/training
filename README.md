@@ -1,4 +1,4 @@
-# training
+# Training
 
 A Collection of training Material
 
