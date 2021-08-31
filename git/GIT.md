@@ -7,18 +7,17 @@
 3. Note: Requires you to sign up for the Windows Insider Program
 
 ### Download and Install VSCode for Windows
-1. https://code.visualstudio.com/download
-2. Use an IDE of your choice (eclipse atom etc..)
-3. ssh agent is disabled – enable and start up (on windows 10)
+1. https://code.visualstudio.com/download  
+2. ssh agent is disabled – enable and start up (on windows 10)  
                https://stackoverflow.com/questions/52113738/starting-ssh-agent-on-windows-10-fails-unable-to-start-ssh-agent-service-erro
  
-4. recreate ssh key and add to github
+3. recreate ssh key and add to github  
                a. apply new ssh key to github cloud
                               https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
                b. test ssh connection from VS Code
                               https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection
  
-5. add username and email in VS Code – commandline
+4. add username and email in VS Code – commandline
                a. Open Git Bash.
                               git config user.name `<username>`
                               git config user.email `<email address>`
@@ -26,7 +25,8 @@
                               git config --get-all user.name
                               git config --get-all user.email
  
-6. pull repository from github.
+5. pull repository from github.
+
 ## To create a new repository
 
 1. In the upper right corner, next to your avatar, click  and then select New repository.
